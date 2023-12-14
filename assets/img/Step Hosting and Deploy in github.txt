@@ -1,0 +1,17 @@
+git init
+git add File name
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Vchea999/6Y.git
+git push -u origin main
+git checkout --orphan gh-pages
+git add File name
+git commit -m "Deploy to GitHub Pages"
+git push origin gh-pages
+git checkout main
+
+
+*Firt install gh-page:
+npm install -g gh-pages@latest
+gh-pages -d dist --src "dist/**/*"
+git status
