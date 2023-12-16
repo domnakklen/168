@@ -94,6 +94,13 @@ button{
   outline: none;
 }
 
+/* Add CSS styles to position the chatbox on the left */
+  #fb-customer-chat {
+    position: fixed;
+    left: 20px; /* Adjust the left position as needed */
+    bottom: 20px; /* Adjust the bottom position as needed */
+  }
+
 h1,h2,h3{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
